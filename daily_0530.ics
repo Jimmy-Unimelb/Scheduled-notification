@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Custom//Daily945Event//EN
+PRODID:-//Custom//Daily450Event//EN
 CALSCALE:GREGORIAN
 BEGIN:VTIMEZONE
 TZID:America/Los_Angeles
@@ -21,18 +21,18 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:20250707T094500-uniqueid@example.com
+UID:20250707T045000-uniqueid@example.com
 DTSTAMP:20250707T000000Z
-DTSTART;TZID=America/Los_Angeles:20250707T094500
-DTEND;TZID=America/Los_Angeles:20250707T100000
+DTSTART;TZID=America/Los_Angeles:20250707T045000
+DTEND;TZID=America/Los_Angeles:20250707T050000
 RRULE:FREQ=DAILY
-SUMMARY:Daily Morning Reminder
-DESCRIPTION:Daily event from 9:45 to 10:00 AM PDT with 2-minute advance alert.
+SUMMARY:Daily Early Morning Reminder
+DESCRIPTION:Daily event from 4:50 to 5:00 AM PDT with 2-minute advance alert.
 LOCATION:Your Preferred Location
 BEGIN:VALARM
 TRIGGER:-PT2M
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Daily 9:45AM Event starts in 2 minutes!
+DESCRIPTION:Reminder: Daily 4:50AM Event starts in 2 minutes!
 END:VALARM
 END:VEVENT
 END:VCALENDAR
